@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+        <div class="row content-info">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+              <li class="breadcrumb-item active"><a href="/users"><b>Usuarios</b></a></li>
+            </ol>
+        </div>
+        
+        <div class="row content-info">
+            <div class="centered">
+                <h2><b>Registrar nuevo usuario</b></h2>
+                <form method="POST" action="/users">
+                        <div class="form-group">
+                        <label>Nombre de usuario*:</label>
+                        <input type="text" class="form-control" name="username" placeholder="Escribe tu nombre de usuario" required>
+                        <label>Nombre*:</label>
+                        <input type="text" class="form-control" name="name" placeholder="Escribe tu nombre" required>
+                        <label>Apellidos*:</label>
+                        <input type="text" class="form-control" name="surname" placeholder="Escribe tus apellidos" required>
+                        <label>Correo electrónico*:</label>
+                        <input type="text" class="form-control" name="email" placeholder="Escribe tu correo electrónico" required>
+                        <label>Contraseña*:</label>
+                        <input type="password" class="form-control" name="password" placeholder="Escribe tu contraseña" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary filter-button"><b>Registrar</b></button>
+                        <p>*: campos obligatorios</p>
+                </form>
+        </div>
+        
+
+{% endblock %}

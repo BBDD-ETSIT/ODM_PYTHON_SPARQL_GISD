@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block sidebar %}
+    <div>
+      <h2><b>Filtros</b></h2>            
+    </div>
+    <hr>
+    <div class="" id="myTabContent">            
+      <div class="" id="filterByTitle" aria-labelledby="home-tab">
+          <form method="GET" action="/movies/movies_filtered">
+            <fieldset>
+                <div class="form-group">
+                <label>Buscar por título</label>
+                <input type="text" class="form-control" name="title" placeholder="Título">
+                </div>
+                <button type="submit" class="btn btn-primary filter-button"><b>Filtrar</b></button>
+            </fieldset>
+          </form>
+      </div>
+
+      <div class="" id="filterByDirector" aria-labelledby="home-tab">
+        <form method="GET" action="/movies/movies_filtered">
+          <fieldset>
+              <div class="form-group">
+              <label>Buscar por director</label>
+              <input type="text" class="form-control" name="director" placeholder="Director">
+              </div>
+              <button type="submit" class="btn btn-primary filter-button"><b>Filtrar</b></button>
+          </fieldset>
+        </form>
+    </div>
+
+
+      <div class="" id="filterByGenre" aria-labelledby="profile-tab">
+          <form method="GET" action="/movies/movies_filtered">
+            <fieldset>
+                <div class="form-group">
+                <label>Buscar por género</label>
+                <select class="form-control" name="genre">
+                    <option value="all">Todos</option>
+                    <option value="Comedy">Comedia</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Action">Acción</option>
+                    <option value="Sci-Fi">Ciencia Ficción</option>
+                    <option value="Thriller">Thriller</option>
+                    <option value="Horror">Terror</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Adventure">Aventura</option>
+                    <option value="Fantasy">Fantasía</option>     
+                    <option value="Biography">Biografía</option>
+                    <option value="Crime">Crimen</option>
+                    <option value="Mystery">Misterio</option>                
+                </select>
+                </div>
+                <button type="submit" class="btn btn-primary filter-button"><b>Filtrar</b></button>
+            </fieldset>
+          </form>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+        <div class="row content-info">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+              <li class="breadcrumb-item active"><a href="/movies"><b>Películas</b></a></li>
+            </ol>
+        </div>
+        <div class="row content-info">
+          <div class="mycontent">
+            {% if movies %}
+              {% for movie in movies -%}
+                <div class="card">
+                  <img class="" src="{{ movie.thumbnail }}" alt="Card image cap">
+                  <p><b>Título:</b> {{ movie.title }}</p>
+                  <p><b>Director:</b> {{ movie.director }}</p>
+                  <p><b>Duración: </b> {{ movie.duration }} minutos</p>
+                  <p><b>Fecha de estreno:</b> {{ movie.release_date }}</p>
+                  <a class="btn btn-primary" href='/movies/{{ movie.slug }}'><b>Ver Información</b></a>                  
+                </div>
+              {% endfor -%}
+            {% endif %}
+          </div>
+        </div>
+             
+{% endblock %}

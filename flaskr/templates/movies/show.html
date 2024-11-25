@@ -1,0 +1,160 @@
+{% extends 'base.html' %}
+
+
+{% block sidebar %}
+    <div>
+      <h2><b>Filtros</b></h2>            
+    </div>
+    <hr>
+    <div class="" id="myTabContent">            
+      <div class="" id="filterByTitle" aria-labelledby="home-tab">
+          <form method="GET" action="/movies">
+            <fieldset>
+                <div class="form-group">
+                <label>Buscar por título</label>
+                <input type="text" class="form-control" name="title" placeholder="Título">
+                </div>
+                <button type="submit" class="btn btn-primary filter-button"><b>Filtrar</b></button>
+            </fieldset>
+          </form>
+      </div>
+
+      <div class="" id="filterByDirector" aria-labelledby="home-tab">
+        <form method="GET" action="/movies">
+          <fieldset>
+              <div class="form-group">
+              <label>Buscar por director</label>
+              <input type="text" class="form-control" name="director" placeholder="Director">
+              </div>
+              <button type="submit" class="btn btn-primary filter-button"><b>Filtrar</b></button>
+          </fieldset>
+        </form>
+    </div>
+
+
+      <div class="" id="filterByGenre" aria-labelledby="profile-tab">
+          <form method="GET" action="/movies">
+            <fieldset>
+                <div class="form-group">
+                <label>Buscar por género</label>
+                <select class="form-control" name="genre">
+                    <option value="all">Todos</option>
+                    <option value="Comedy">Comedia</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Action">Acción</option>
+                    <option value="Sci-Fi">Ciencia Ficción</option>
+                    <option value="Thriller">Thriller</option>
+                    <option value="Horror">Terror</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Adventure">Aventura</option>
+                    <option value="Fantasy">Fantasía</option>     
+                    <option value="Biography">Biografía</option>
+                    <option value="Crime">Crimen</option>
+                    <option value="Mystery">Misterio</option>                
+                </select>
+                </div>
+                <button type="submit" class="btn btn-primary filter-button"><b>Filtrar</b></button>
+            </fieldset>
+          </form>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+        <div class="row content-info">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+              <li class="breadcrumb-item"><a href="/movies"><b>Peliculas</b></a></li>
+              <li class="breadcrumb-item active"><a href="/movies/{{ movie.slug }}"><b>{{ movie.slug }}</b></a></li>
+            </ol>
+        </div>
+        <div class="row moviecontent">
+          
+            {% if movie %}
+                <div class="movieposterdiv">
+                    <img class="movieposter" src="{{ movie.thumbnail }}" alt="Card image cap">
+                </div>
+                <div class="moviedata">
+                    <h2><b>{{ movie.title }}</b></h2>
+                    <p><b>Director:</b> {{ movie.director }}</p>
+                    <p><b>Duración: </b> {{ movie.duration }} minutos</p>
+                    <p><b>Fecha de estreno:</b> {{ movie.release_date }}</p>
+                    <p><b>Generos:</b> 
+                    {% for genre in movie.genres %}
+                        {{ genre }}
+                    {% endfor %}
+                    </p>
+                    <p><b>Actores:</b> 
+                    {% for actor in movie.actors %}
+                        {{ actor.name }}
+                    {% endfor %}
+                    </p>
+		    {% if movie.extra %}
+		    <b>Información extra:</b> 
+		    <div class="extra">
+		    {% for extra in movie.extra %}
+		    {% for (k, v) in extra.items() %}
+			    <p><b>{{ k }}:</b> {{ v }}</p>
+		    {% endfor %}
+		    {% endfor %}
+		    </div>
+		    {% endif %}
+                    <p><b>Comentarios:</b> 
+                    {% if movie.reviews %}
+                    {% for review in movie.reviews %}
+                        <div class="review">
+                            <p><b>Usuario:</b> <a href="/users/{{ review.username }}">{{ review.username }}</a></p>
+                            <p><b>Rating:</b> {{ review.rating }}</p>
+                            <p><b>Comentario:</b> {{ review.comment }}</p>
+                        </div>
+                    {% endfor %}
+                    {% endif %}
+                    </p>
+                    {% if g.user %}
+                        <a class="btn btn-primary" id="addreviewbutton" href='#commentform'><b>Añadir comentario</b></a>
+                        {% if movie.is_favorite %}
+                            <p><b>Esta película es una de tus favoritas</b></p>
+                            <form method="POST" action="/users/{{ g.user['username'] }}/removefavorite">
+                                <input type="hidden" name="movie_id" value="{{ movie.id }}">
+                                <input type="hidden" name="movie_slug" value="{{ movie.slug }}">
+                                <input type="hidden" name="movie_title" value="{{ movie.title }}">
+                                <button type="submit" class="btn btn-primary">Quitar favorita</button>
+                            </form>
+                        {% else %}
+                            <form method="POST" action="/users/{{ g.user['username'] }}/addfavorite">
+                                <input type="hidden" name="movie_id" value="{{ movie.id }}">
+                                <input type="hidden" name="movie_slug" value="{{ movie.slug }}">
+                                <input type="hidden" name="movie_title" value="{{ movie.title }}">
+                                <button type="submit" class="btn btn-primary">Hacer favorita</button>
+                            </form>
+                        {% endif %}
+                    {% else %}
+                        <a class="btn btn-primary" href='/login'><b>Inicia sesión para comentar</b></a>
+                    {% endif %}
+                    <!--Formulario oculto para añadir comentario-->
+                    <form id="reviewform" method="POST" action="/movies/{{ movie.slug }}/comments" style="display: none;">
+                        <div class="form-group">
+                            <label for="rating">Rating</label>
+                            <input type="number" class="form-control review-rating" id="rating" name="rating" min="1" max="5" required>
+                            <label for="comment">Comentario</label>
+                            <textarea class="form-control" id="comment" name="comment" rows="3" required></textarea>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            {% endif %}
+            
+        </div>
+        <a class="btn btn-primary" href='/movies/'><b>Volver</b></a>  
+        <br/><br/> 
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#addreviewbutton").click(function(){
+                    $("#reviewform").toggle();
+                });
+            });
+          </script>
+        
+{% endblock %}
+

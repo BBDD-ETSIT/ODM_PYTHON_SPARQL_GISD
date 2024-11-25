@@ -1,0 +1,113 @@
+[
+    {
+        "_id" : "670d392bd5c2c5162183667f",
+        "username": "admin",
+        "name": "Admin",
+        "surname": "AdminSurname",
+        "email": "admin@example.com",
+        "password_hash": "pbkdf2:sha256:600000$y7FnKSqUAoZBtXgd$3eabb3de2c6e75657501e3d5475d3a16142ae34de03491585d72324aa7d85fd0",
+        "created_at": "2023-09-01T00:00:00Z",
+        "updated_at": "2023-09-01T00:00:00Z"
+    },
+    {
+        "_id" : "670d392bd5c2c51621836680",
+        "username": "user1",
+        "name": "Pepe",
+        "surname": "Pérez",
+        "email": "user1@example.com",
+        "password_hash": "pbkdf2:sha256:600000$zLAf9wteFz2oPXgF$684b1c08edaaaa892f7ab5a589a2689bb43198edaa372cad4818ed0916e93b4a",
+        "country": "Spain",
+        "city": "Madrid",
+        "favorite_movies": [
+            { 
+                "_id":  "670e6fe1a5e24a431c1e6802",
+                "title": "The Dark Knight",
+                "slug": "the-dark-knight"
+            },
+            { 
+                "_id":  "670e6fe1a5e24a431c1e6801",
+                "title": "The Godfather",
+                "slug": "the-godfather"
+            }
+        ],
+        "created_at": "2023-09-01T00:00:00Z",
+        "updated_at": "2023-09-01T00:00:00Z"
+    },
+    {
+        "_id" : "670d392bd5c2c51621836681",
+        "username": "john",
+        "name": "John",
+        "surname": "Doe",
+        "email": "user2@example.com",
+        "password_hash": "pbkdf2:sha256:600000$zLAf9wteFz2oPXgF$684b1c08edaaaa892f7ab5a589a2689bb43198edaa372cad4818ed0916e93b4a",
+        "country": "United States",
+        "city": "New York",
+        "favorite_movies": [
+            {
+                "_id":  "670e6fe1a5e24a431c1e6800",
+                "title": "The Shawshank Redemption",
+                "slug": "the-shawshank-redemption"
+              },
+              {
+                "_id":  "670e6fe1a5e24a431c1e6801",
+                "title": "The Godfather",
+                "slug": "the-godfathe"
+              }
+        ],
+        "created_at": "2023-09-01T00:00:00Z",
+        "updated_at": "2023-09-01T00:00:00Z"
+    },
+    {
+        "_id" : "670d392bd5c2c51621836682",
+        "username": "jane",
+        "name": "Jane",
+        "surname": "Doe",
+        "email": "user3@example.com",
+        "password_hash": "pbkdf2:sha256:600000$zLAf9wteFz2oPXgF$684b1c08edaaaa892f7ab5a589a2689bb43198edaa372cad4818ed0916e93b4a",
+        "country": "United Kingdom",
+        "city": "London",
+        "favorite_movies": [
+            {
+                "_id":  "670e6fe1a5e24a431c1e6800",
+                "title": "The Shawshank Redemption",
+                "slug": "the-shawshank-redemption"
+              },
+              {
+                "_id":  "670e6fe1a5e24a431c1e6805",
+                "title": "Fight Club",
+                "slug": "fight-club"
+              },
+                {
+                    "_id":  "670e6fe1a5e24a431c1e6811",
+                    "title": "Avatar",
+                    "slug": "avatar"
+                }
+        ],
+        "created_at": "2023-09-01T00:00:00Z",
+        "updated_at": "2023-09-01T00:00:00Z"
+    },
+    {
+        "_id" : "670d392bd5c2c51621836683",
+        "username": "marta",
+        "name": "Marta",
+        "surname": "Martínez",
+        "email": "marta@example.com",
+        "password_hash": "pbkdf2:sha256:600000$zLAf9wteFz2oPXgF$684b1c08edaaaa892f7ab5a589a2689bb43198edaa372cad4818ed0916e93b4a",
+        "country": "Spain",
+        "city": "Barcelona",
+        "favorite_movies": [
+            {
+                "_id":  "670e6fe1a5e24a431c1e6800",
+                "title": "The Shawshank Redemption",
+                "slug": "the-shawshank-redemption"
+              },
+                {
+                    "_id":  "670e6fe1a5e24a431c1e6812",
+                    "title": "Titanic",
+                    "slug": "titanic"
+            }
+        ],
+        "created_at": "2023-09-01T00:00:00Z",
+        "updated_at": "2023-09-01T00:00:00Z"
+    }
+]

@@ -1,0 +1,217 @@
+[
+    {
+        "_id": "670e6fe1a5e24a431c1e6800",  
+        "title": "The Shawshank Redemption",
+        "slug": "the-shawshank-redemption",
+        "release_date": "1994-10-14",
+        "duration": 142,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg",
+        "director": "Frank Darabont",
+        "genres": [
+            "Drama"
+        ],
+        "actors": [
+            {
+                "name": "Tim Robbins",
+                "date_of_birth": "1958-10-16",
+                "biography": "Tim Robbins nació el 16 de octubre de 1958 en West Covina, California, EE. UU. como Timothy Francis Robbins. Es un actor y director, conocido por Cadena perpetua (1994), Mystic River (2003) y La guerra de los mundos (2005). Está casado con Gratiela Brancusi desde el 1988. Tienen dos hijos."
+            },
+            {
+                "name": "Morgan Freeman",
+                "date_of_birth": "1937-06-01",
+                "biography": "Morgan Freeman nació el 1 de junio de 1937 en Memphis, Tennessee, EE. UU. como Morgan Porterfield Freeman Jr. Es un actor y productor, conocido por Cadena perpetua (1994), Million Dollar Baby (2004) y Invictus (2009). Está casado con Myrna Colley-Lee desde el 1984. Tiene cuatro hijos."
+            }
+        ],
+        "ratings": 9.3,
+        "reviews": [
+            {
+                "user_id": "670d392bd5c2c51621836680"     ,
+                "username": "user1",
+                "rating": 10,
+                "comment": "La mejor película que he visto nunca."
+            },
+            {
+                "user_id": "670d392bd5c2c51621836681"     ,
+                "username": "john",
+                "rating": 9,
+                "comment": "Estupenda película."
+            }
+        ],
+        "created_at":  "2023-09-01T00:00:00Z",
+        "updated_at":  "2023-09-01T00:00:00Z",
+        "uri": "http://www.wikidata.org/entity/Q172241"
+    },
+    {
+        "_id":"670e6fe1a5e24a431c1e6807",  
+        "title": "Forrest Gump",
+        "slug": "forrest-gump",
+        "release_date": "1994-07-06",
+        "duration": 142,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_.jpg",
+        "director": "Robert Zemeckis",
+        "genres": [
+            "Drama",
+            "Romance"
+        ],
+        "actors": [
+            {
+                "name": "Tom Hanks",
+                "date_of_birth": "1956-07-09",
+                "biography": "Tom Hanks nació el 9 de julio de 1956 en Concord, California, EE. UU. Es un actor y productor conocido por Forrest Gump (1994), Cast Away (2000) y Saving Private Ryan (1998)."
+            },
+            {
+                "name": "Robin Wright",
+                "date_of_birth": "1966-04-08",
+                "biography": "Robin Wright nació el 8 de abril de 1966 en Dallas, Texas, EE. UU. Es una actriz conocida por Forrest Gump (1994), Wonder Woman (2017) y House of Cards (2013)."
+            }
+        ],
+        "ratings": 8.8,
+        "reviews": [
+            {
+                "user_id": "670d392bd5c2c51621836680"     ,
+                "username": "user1",
+                "rating": 10,
+                "comment": "Inspiradora y conmovedora."
+            },
+            {
+                "user_id": "670d392bd5c2c51621836682"     ,
+                "username": "jane",
+                "rating": 9,
+                "comment": "Una historia increíblemente hermosa."
+            }
+        ],
+        "created_at":  "2023-09-01T00:00:00Z",
+        "updated_at":  "2023-09-01T00:00:00Z",
+        "uri": "http://www.wikidata.org/entity/Q134773"
+    },
+    {
+        "_id":"670e6fe1a5e24a431c1e680b",  
+        "title": "The Avengers",
+        "slug": "the-avengers",
+        "release_date": "2012-05-04",
+        "duration": 143,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "director": "Joss Whedon",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "actors": [
+            {
+                "name": "Robert Downey Jr.",
+                "date_of_birth": "1965-04-04",
+                "biography": "Robert Downey Jr. nació el 4 de abril de 1965 en Manhattan, Nueva York, EE. UU. Es un actor conocido por Iron Man (2008), The Avengers (2012) y Sherlock Holmes (2009)."
+            },
+            {
+                "name": "Chris Evans",
+                "date_of_birth": "1981-06-13",
+                "biography": "Chris Evans nació el 13 de junio de 1981 en Boston, Massachusetts, EE. UU. Es un actor conocido por Captain America (2011), The Avengers (2012) y Knives Out (2019)."
+            }
+        ],
+        "ratings": 8.0,
+        "reviews": [
+            {
+                "user_id": "670d392bd5c2c51621836680"     ,
+                "username": "user1",
+                "rating": 8,
+                "comment": "Una película divertida y llena de acción."
+            },
+            {
+                "user_id": "670d392bd5c2c51621836682"     ,
+                "username": "jane",
+                "rating": 9,
+                "comment": "El mejor crossover de superhéroes."
+            }
+        ],
+        "created_at":  "2023-09-01T00:00:00Z",
+        "updated_at":  "2023-09-01T00:00:00Z",
+        "uri": "http://www.wikidata.org/entity/Q182218"
+    },
+    {
+        "_id":"670e6fe1a5e24a431c1e6812",  
+        "title": "Titanic",
+        "slug": "titanic",
+        "release_date": "1997-12-19",
+        "duration": 195,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_.jpg",
+        "director": "James Cameron",
+        "genres": [
+            "Drama",
+            "Romance"
+        ],
+        "actors": [
+            {
+                "name": "Leonardo DiCaprio",
+                "date_of_birth": "1974-11-11",
+                "biography": "Leonardo DiCaprio nació el 11 de noviembre de 1974 en Los Ángeles, California. Es un actor conocido por Titanic (1997), Inception (2010) y The Revenant (2015)."
+            },
+            {
+                "name": "Kate Winslet",
+                "date_of_birth": "1975-10-05",
+                "biography": "Kate Winslet nació el 5 de octubre de 1975 en Reading, Inglaterra. Es una actriz conocida por Titanic (1997), Eternal Sunshine of the Spotless Mind (2004) y The Reader (2008)."
+            }
+        ],
+        "ratings": 7.9,
+        "reviews": [
+            {
+                "user_id": "670d392bd5c2c51621836680"     ,
+                "username": "user1",
+                "rating": 9,
+                "comment": "Una historia de amor épica y desgarradora."
+            },
+            {
+                "user_id": "670d392bd5c2c51621836681"     ,
+                "username": "john",
+                "rating": 8,
+                "comment": "Espectacular en todos los sentidos."
+            }
+        ],
+        "created_at":  "2023-09-01T00:00:00Z",
+        "updated_at":  "2023-09-01T00:00:00Z",
+        "uri": "http://www.wikidata.org/entity/Q44578"
+    },
+    {
+        "_id":"670e6fe1a5e24a431c1e6817",  
+        "title": "Whiplash",
+        "slug": "whiplash",
+        "release_date": "2014-10-10",
+        "duration": 106,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BMmNkODhkYjctMDMyOC00ZTNjLTkwZTItM2ExMTAxMGU1ZGQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "director": "Damien Chazelle",
+        "genres": [
+            "Drama",
+            "Music"
+        ],
+        "actors": [
+            {
+                "name": "Miles Teller",
+                "date_of_birth": "1987-02-20",
+                "biography": "Miles Teller nació el 20 de febrero de 1987 en Downingtown, Pensilvania, EE. UU. Es conocido por Whiplash (2014), Fantastic Four (2015) y Top Gun: Maverick (2022)."
+            },
+            {
+                "name": "J.K. Simmons",
+                "date_of_birth": "1955-01-09",
+                "biography": "J.K. Simmons nació el 9 de enero de 1955 en Detroit, Michigan, EE. UU. Es conocido por Whiplash (2014), Spider-Man (2002) y Juno (2007)."
+            }
+        ],
+        "ratings": 8.5,
+        "reviews": [
+            {
+                "user_id": "670d392bd5c2c51621836680"     ,
+                "username": "user1",
+                "rating": 9,
+                "comment": "Intensa y fascinante. Una obra maestra."
+            },
+            {
+                "user_id": "670d392bd5c2c51621836683"     ,
+                "username": "marta",
+                "rating": 8,
+                "comment": "Una historia brillante sobre la pasión y el sacrificio."
+            }
+        ],
+        "created_at":  "2023-09-01T00:00:00Z",
+        "updated_at":  "2023-09-01T00:00:00Z",
+        "uri": "http://www.wikidata.org/entity/Q15648198"
+    }
+]

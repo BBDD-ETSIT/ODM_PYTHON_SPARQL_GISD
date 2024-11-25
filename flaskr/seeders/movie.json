@@ -1,0 +1,1287 @@
+[
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6800"
+        },
+        "title": "The Shawshank Redemption",
+        "slug": "the-shawshank-redemption",
+        "release_date": "1994-10-14",
+        "duration": 142,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg",
+        "director": "Frank Darabont",
+        "genres": [
+            "Drama"
+        ],
+        "actors": [
+            {
+                "name": "Tim Robbins",
+                "date_of_birth": "1958-10-16",
+                "biography": "Tim Robbins nació el 16 de octubre de 1958 en West Covina, California, EE. UU. como Timothy Francis Robbins. Es un actor y director, conocido por Cadena perpetua (1994), Mystic River (2003) y La guerra de los mundos (2005). Está casado con Gratiela Brancusi desde el 1988. Tienen dos hijos."
+            },
+            {
+                "name": "Morgan Freeman",
+                "date_of_birth": "1937-06-01",
+                "biography": "Morgan Freeman nació el 1 de junio de 1937 en Memphis, Tennessee, EE. UU. como Morgan Porterfield Freeman Jr. Es un actor y productor, conocido por Cadena perpetua (1994), Million Dollar Baby (2004) y Invictus (2009). Está casado con Myrna Colley-Lee desde el 1984. Tiene cuatro hijos."
+            }
+        ],
+        "ratings": 9.3,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 10,
+                "comment": "La mejor película que he visto nunca."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836681"
+                },
+                "username": "john",
+                "rating": 9,
+                "comment": "Estupenda película."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q172241"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6801"
+        },
+        "title": "The Godfather",
+        "slug": "the-godfather",
+        "release_date": "1972-03-24",
+        "duration": 175,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_.jpg",
+        "director": "Francis Ford Coppola",
+        "genres": [
+            "Crime",
+            "Drama"
+        ],
+        "actors": [
+            {
+                "name": "Marlon Brando",
+                "date_of_birth": "1924-04-03",
+                "biography": "Marlon Brando es considerado el mejor actor de la historia del cine. Nació el 3 de abril de 1924 en Omaha, Nebraska, EE. UU. como Marlon Brando Jr. Es un actor, conocido por Apocalypse Now (1979), El padrino (1972) y La ley del silencio (1954). Estuvo casado con Tarita"
+            },
+            {
+                "name": "Al Pacino",
+                "date_of_birth": "1940-04-25",
+                "biography": "Al Pacino nació el 25 de abril de 1940 en East Harlem, Manhattan, Nueva York, EE. UU. como Alfredo James Pacino. Es un actor y director, conocido por El padrino (1972), Scarface (1983) y El precio del poder (1983). Estuvo casado con Jan Tarrant desde el 1988 hasta el 1989. Tiene tres hijos."
+            }
+        ],
+        "ratings": 9.2,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Me encanta esta película."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836681"
+                },
+                "username": "john",
+                "rating": 8,
+                "comment": "Muy buena película."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q47703"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6802"
+        },
+        "title": "The Dark Knight",
+        "slug": "the-dark-knight",
+        "release_date": "2008-07-18",
+        "duration": 152,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+        "director": "Christopher Nolan",
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "actors": [
+            {
+                "name": "Christian Bale",
+                "date_of_birth": "1974-01-30",
+                "biography": "Christian Bale nació el 30 de enero de 1974 en Haverfordwest, Pembrokeshire, Gales, Reino Unido como Christian Charles Philip Bale. Es un actor, conocido por The Dark Knight (2008), El maquinista (2004) y El truco final (El prestigio) (2006). Está casado con Sibi Blazic desde el 2000. Tienen dos hijos."
+            },
+            {
+                "name": "Heath Ledger",
+                "date_of_birth": "1979-04-04",
+                "biography": "Heath Ledger nació el 4 de abril de 1979 en Perth, Australia Occidental, Australia como Heathcliff Andrew Ledger. Fue un actor, conocido por El caballero oscuro (2008), Brokeback Mountain (2005) y 10 cosas que odio de ti (1999). Estuvo casado con Michelle Williams desde el 2005 hasta el 2007. Tuvieron una hija."
+            }
+        ],
+        "ratings": 9.0,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Me encanta esta película."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836681"
+                },
+                "username": "john",
+                "rating": 8,
+                "comment": "El mejor Batman. Muy buena película."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q163872"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6803"
+        },
+        "title": "Inception",
+        "slug": "inception",
+        "release_date": "2010-07-16",
+        "duration": 148,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+        "director": "Christopher Nolan",
+        "genres": [
+            "Action",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "actors": [
+            {
+                "name": "Leonardo DiCaprio",
+                "date_of_birth": "1974-11-11",
+                "biography": "Leonardo DiCaprio nació el 11 de noviembre de 1974 en Los Ángeles, California, EE. UU. Es un actor y productor conocido por Inception (2010), Titanic (1997) y The Revenant (2015)."
+            },
+            {
+                "name": "Joseph Gordon-Levitt",
+                "date_of_birth": "1981-02-17",
+                "biography": "Joseph Gordon-Levitt nació el 17 de febrero de 1981 en Los Ángeles, California, EE. UU. Es un actor conocido por Inception (2010), 500 Days of Summer (2009) y Looper (2012)."
+            }
+        ],
+        "ratings": 8.8,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Una película fascinante y llena de acción."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836681"
+                },
+                "username": "john",
+                "rating": 10,
+                "comment": "Una obra maestra de la ciencia ficción."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q25188"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6804"
+        },
+        "title": "Interstellar",
+        "slug": "interstellar",
+        "release_date": "2014-11-07",
+        "duration": 169,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_.jpg",
+        "director": "Christopher Nolan",
+        "genres": [
+            "Adventure",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "actors": [
+            {
+                "name": "Matthew McConaughey",
+                "date_of_birth": "1969-11-04",
+                "biography": "Matthew McConaughey nació el 4 de noviembre de 1969 en Uvalde, Texas, EE. UU. Es un actor conocido por Interstellar (2014), Dallas Buyers Club (2013) y True Detective (2014)."
+            },
+            {
+                "name": "Anne Hathaway",
+                "date_of_birth": "1982-11-12",
+                "biography": "Anne Hathaway nació el 12 de noviembre de 1982 en Brooklyn, Nueva York, EE. UU. Es una actriz conocida por Interstellar (2014), The Dark Knight Rises (2012) y Les Misérables (2012)."
+            }
+        ],
+        "ratings": 8.6,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 10,
+                "comment": "Una odisea espacial sin igual."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836682"
+                },
+                "username": "jane",
+                "rating": 9,
+                "comment": "Visualmente impresionante y emotiva."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q13417189"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6805"
+        },
+        "title": "Fight Club",
+        "slug": "fight-club",
+        "release_date": "1999-10-15",
+        "duration": 139,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_.jpg",
+        "director": "David Fincher",
+        "genres": [
+            "Drama"
+        ],
+        "actors": [
+            {
+                "name": "Brad Pitt",
+                "date_of_birth": "1963-12-18",
+                "biography": "Brad Pitt nació el 18 de diciembre de 1963 en Shawnee, Oklahoma, EE. UU. Es un actor y productor conocido por Fight Club (1999), Se7en (1995) y Once Upon a Time in Hollywood (2019)."
+            },
+            {
+                "name": "Edward Norton",
+                "date_of_birth": "1969-08-18",
+                "biography": "Edward Norton nació el 18 de agosto de 1969 en Boston, Massachusetts, EE. UU. Es un actor conocido por Fight Club (1999), American History X (1998) y The Grand Budapest Hotel (2014)."
+            }
+        ],
+        "ratings": 8.8,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Un clásico moderno que cuestiona la realidad."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836682"
+                },
+                "username": "jane",
+                "rating": 8,
+                "comment": "Inquietante y profundo."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q190050"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6806"
+        },
+        "title": "Pulp Fiction",
+        "slug": "pulp-fiction",
+        "release_date": "1994-10-14",
+        "duration": 154,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_.jpg",
+        "director": "Quentin Tarantino",
+        "genres": [
+            "Crime",
+            "Drama"
+        ],
+        "actors": [
+            {
+                "name": "John Travolta",
+                "date_of_birth": "1954-02-18",
+                "biography": "John Travolta nació el 18 de febrero de 1954 en Englewood, Nueva Jersey, EE. UU. Es un actor y productor conocido por Pulp Fiction (1994), Grease (1978) y Face/Off (1997)."
+            },
+            {
+                "name": "Samuel L. Jackson",
+                "date_of_birth": "1948-12-21",
+                "biography": "Samuel L. Jackson nació el 21 de diciembre de 1948 en Washington, D.C., EE. UU. Es un actor conocido por Pulp Fiction (1994), The Avengers (2012) y Django Unchained (2012)."
+            }
+        ],
+        "ratings": 8.9,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Una película revolucionaria."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836681"
+                },
+                "username": "john",
+                "rating": 10,
+                "comment": "Un clásico del cine de culto."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q104123"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6807"
+        },
+        "title": "Forrest Gump",
+        "slug": "forrest-gump",
+        "release_date": "1994-07-06",
+        "duration": 142,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_.jpg",
+        "director": "Robert Zemeckis",
+        "genres": [
+            "Drama",
+            "Romance"
+        ],
+        "actors": [
+            {
+                "name": "Tom Hanks",
+                "date_of_birth": "1956-07-09",
+                "biography": "Tom Hanks nació el 9 de julio de 1956 en Concord, California, EE. UU. Es un actor y productor conocido por Forrest Gump (1994), Cast Away (2000) y Saving Private Ryan (1998)."
+            },
+            {
+                "name": "Robin Wright",
+                "date_of_birth": "1966-04-08",
+                "biography": "Robin Wright nació el 8 de abril de 1966 en Dallas, Texas, EE. UU. Es una actriz conocida por Forrest Gump (1994), Wonder Woman (2017) y House of Cards (2013)."
+            }
+        ],
+        "ratings": 8.8,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 10,
+                "comment": "Inspiradora y conmovedora."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836682"
+                },
+                "username": "jane",
+                "rating": 9,
+                "comment": "Una historia increíblemente hermosa."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q134773"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6808"
+        },
+        "title": "The Matrix",
+        "slug": "the-matrix",
+        "release_date": "1999-03-31",
+        "duration": 136,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg",
+        "director": "Lana Wachowski, Lilly Wachowski",
+        "genres": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "actors": [
+            {
+                "name": "Keanu Reeves",
+                "date_of_birth": "1964-09-02",
+                "biography": "Keanu Reeves nació el 2 de septiembre de 1964 en Beirut, Líbano. Es un actor conocido por The Matrix (1999), John Wick (2014) y Speed (1994)."
+            },
+            {
+                "name": "Laurence Fishburne",
+                "date_of_birth": "1961-07-30",
+                "biography": "Laurence Fishburne nació el 30 de julio de 1961 en Augusta, Georgia, EE. UU. Es un actor conocido por The Matrix (1999), Apocalypse Now (1979) y John Wick (2014)."
+            }
+        ],
+        "ratings": 8.7,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836682"
+                },
+                "username": "jane",
+                "rating": 10,
+                "comment": "Una revolución en los efectos especiales."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Impactante e innovadora."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q83495"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6809"
+        },
+        "title": "Gladiator",
+        "slug": "gladiator",
+        "release_date": "2000-05-05",
+        "duration": 155,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_.jpg",
+        "director": "Ridley Scott",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "actors": [
+            {
+                "name": "Russell Crowe",
+                "date_of_birth": "1964-04-07",
+                "biography": "Russell Crowe nació el 7 de abril de 1964 en Wellington, Nueva Zelanda. Es un actor conocido por Gladiator (2000), A Beautiful Mind (2001) y Les Misérables (2012)."
+            },
+            {
+                "name": "Joaquin Phoenix",
+                "date_of_birth": "1974-10-28",
+                "biography": "Joaquin Phoenix nació el 28 de octubre de 1974 en San Juan, Puerto Rico. Es un actor conocido por Gladiator (2000), Joker (2019) y Walk the Line (2005)."
+            }
+        ],
+        "ratings": 8.5,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836682"
+                },
+                "username": "jane",
+                "rating": 10,
+                "comment": "Un clásico épico."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836695"
+                },
+                "username": "user16",
+                "rating": 9,
+                "comment": "Una actuación increíble de Crowe."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q128518"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e680a"
+        },
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring",
+        "release_date": "2001-12-19",
+        "duration": 178,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg",
+        "director": "Peter Jackson",
+        "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "actors": [
+            {
+                "name": "Elijah Wood",
+                "date_of_birth": "1981-01-28",
+                "biography": "Elijah Wood nació el 28 de enero de 1981 en Cedar Rapids, Iowa, EE. UU. Es un actor conocido por The Lord of the Rings (2001), Eternal Sunshine of the Spotless Mind (2004) y Sin City (2005)."
+            },
+            {
+                "name": "Ian McKellen",
+                "date_of_birth": "1939-05-25",
+                "biography": "Ian McKellen nació el 25 de mayo de 1939 en Burnley, Lancashire, Inglaterra. Es un actor conocido por The Lord of the Rings (2001), X-Men (2000) y The Hobbit (2012)."
+            }
+        ],
+        "ratings": 8.8,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836682"
+                },
+                "username": "jane",
+                "rating": 10,
+                "comment": "Una obra maestra del cine fantástico."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Increíble en todos los aspectos."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q127367"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e680b"
+        },
+        "title": "The Avengers",
+        "slug": "the-avengers",
+        "release_date": "2012-05-04",
+        "duration": 143,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "director": "Joss Whedon",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "actors": [
+            {
+                "name": "Robert Downey Jr.",
+                "date_of_birth": "1965-04-04",
+                "biography": "Robert Downey Jr. nació el 4 de abril de 1965 en Manhattan, Nueva York, EE. UU. Es un actor conocido por Iron Man (2008), The Avengers (2012) y Sherlock Holmes (2009)."
+            },
+            {
+                "name": "Chris Evans",
+                "date_of_birth": "1981-06-13",
+                "biography": "Chris Evans nació el 13 de junio de 1981 en Boston, Massachusetts, EE. UU. Es un actor conocido por Captain America (2011), The Avengers (2012) y Knives Out (2019)."
+            }
+        ],
+        "ratings": 8.0,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 8,
+                "comment": "Una película divertida y llena de acción."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836682"
+                },
+                "username": "jane",
+                "rating": 9,
+                "comment": "El mejor crossover de superhéroes."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q182218"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e680c"
+        },
+        "title": "Schindler's List",
+        "slug": "schindlers-list",
+        "release_date": "1993-12-15",
+        "duration": 195,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_.jpgg",
+        "director": "Steven Spielberg",
+        "genres": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "actors": [
+            {
+                "name": "Liam Neeson",
+                "date_of_birth": "1952-06-07",
+                "biography": "Liam Neeson nació el 7 de junio de 1952 en Ballymena, Irlanda del Norte. Es un actor conocido por Schindler's List (1993), Taken (2008) y The Grey (2011)."
+            },
+            {
+                "name": "Ralph Fiennes",
+                "date_of_birth": "1962-12-22",
+                "biography": "Ralph Fiennes nació el 22 de diciembre de 1962 en Ipswich, Inglaterra. Es un actor conocido por Schindler's List (1993), The Grand Budapest Hotel (2014) y la saga de Harry Potter (2005-2011)."
+            }
+        ],
+        "ratings": 9.0,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 10,
+                "comment": "Una de las películas más conmovedoras que he visto."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836682"
+                },
+                "username": "jane",
+                "rating": 9,
+                "comment": "Una historia desgarradora y visualmente impresionante."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q483941"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e680d"
+        },
+        "title": "The Silence of the Lambs",
+        "slug": "the-silence-of-the-lambs",
+        "release_date": "1991-02-14",
+        "duration": 118,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_.jpg",
+        "director": "Jonathan Demme",
+        "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "actors": [
+            {
+                "name": "Jodie Foster",
+                "date_of_birth": "1962-11-19",
+                "biography": "Jodie Foster nació el 19 de noviembre de 1962 en Los Ángeles, California, EE. UU. Es una actriz conocida por The Silence of the Lambs (1991), Contact (1997) y Panic Room (2002)."
+            },
+            {
+                "name": "Anthony Hopkins",
+                "date_of_birth": "1937-12-31",
+                "biography": "Anthony Hopkins nació el 31 de diciembre de 1937 en Margam, Gales. Es un actor conocido por The Silence of the Lambs (1991), The Remains of the Day (1993) y The Father (2020)."
+            }
+        ],
+        "ratings": 8.6,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 10,
+                "comment": "Una película brillante, aterradora e inolvidable."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836683"
+                },
+                "username": "marta",
+                "rating": 9,
+                "comment": "El retrato de Hannibal Lecter es legendario."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q133654"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e680e"
+        },
+        "title": "Saving Private Ryan",
+        "slug": "saving-private-ryan",
+        "release_date": "1998-07-24",
+        "duration": 169,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_.jpg",
+        "director": "Steven Spielberg",
+        "genres": [
+            "Drama",
+            "War"
+        ],
+        "actors": [
+            {
+                "name": "Tom Hanks",
+                "date_of_birth": "1956-07-09",
+                "biography": "Tom Hanks nació el 9 de julio de 1956 en Concord, California, EE. UU. Es un actor y productor conocido por Saving Private Ryan (1998), Forrest Gump (1994) y Cast Away (2000)."
+            },
+            {
+                "name": "Matt Damon",
+                "date_of_birth": "1970-10-08",
+                "biography": "Matt Damon nació el 8 de octubre de 1970 en Cambridge, Massachusetts, EE. UU. Es un actor y productor conocido por Saving Private Ryan (1998), The Martian (2015) y la saga Bourne (2002-2016)."
+            }
+        ],
+        "ratings": 8.6,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Una película de guerra increíblemente poderosa."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836683"
+                },
+                "username": "marta",
+                "rating": 10,
+                "comment": "Uno de los mejores retratos de la Segunda Guerra Mundial."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q165817"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e680f"
+        },
+        "title": "Jurassic Park",
+        "slug": "jurassic-park",
+        "release_date": "1993-06-11",
+        "duration": 127,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg",
+        "director": "Steven Spielberg",
+        "genres": [
+            "Adventure",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "actors": [
+            {
+                "name": "Sam Neill",
+                "date_of_birth": "1947-09-14",
+                "biography": "Sam Neill nació el 14 de septiembre de 1947 en Omagh, Irlanda del Norte. Es un actor conocido por Jurassic Park (1993), Event Horizon (1997) y The Hunt for Red October (1990)."
+            },
+            {
+                "name": "Laura Dern",
+                "date_of_birth": "1967-02-10",
+                "biography": "Laura Dern nació el 10 de febrero de 1967 en Los Ángeles, California, EE. UU. Es una actriz conocida por Jurassic Park (1993), Blue Velvet (1986) y Marriage Story (2019)."
+            }
+        ],
+        "ratings": 8.1,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Una revolución en los efectos especiales."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836683"
+                },
+                "username": "marta",
+                "rating": 8,
+                "comment": "Entretenida e impresionante."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q167726"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6810"
+        },
+        "title": "The Green Mile",
+        "slug": "the-green-mile",
+        "release_date": "1999-12-10",
+        "duration": 189,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg",
+        "director": "Frank Darabont",
+        "genres": [
+            "Crime",
+            "Drama",
+            "Fantasy"
+        ],
+        "actors": [
+            {
+                "name": "Tom Hanks",
+                "date_of_birth": "1956-07-09",
+                "biography": "Tom Hanks nació el 9 de julio de 1956 en Concord, California, EE. UU. Es un actor conocido por The Green Mile (1999), Forrest Gump (1994) y Saving Private Ryan (1998)."
+            },
+            {
+                "name": "Michael Clarke Duncan",
+                "date_of_birth": "1957-12-10",
+                "biography": "Michael Clarke Duncan nació el 10 de diciembre de 1957 en Chicago, Illinois, EE. UU. Es conocido por su actuación en The Green Mile (1999) y Daredevil (2003)."
+            }
+        ],
+        "ratings": 8.6,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 10,
+                "comment": "Una historia conmovedora y trágica."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836683"
+                },
+                "username": "marta",
+                "rating": 9,
+                "comment": "Una de las mejores actuaciones de Tom Hanks."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q208263"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6811"
+        },
+        "title": "Avatar",
+        "slug": "avatar",
+        "release_date": "2009-12-18",
+        "duration": 162,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_.jpg",
+        "director": "James Cameron",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "actors": [
+            {
+                "name": "Sam Worthington",
+                "date_of_birth": "1976-08-02",
+                "biography": "Sam Worthington nació el 2 de agosto de 1976 en Godalming, Inglaterra. Es un actor conocido por Avatar (2009), Terminator Salvation (2009) y Clash of the Titans (2010)."
+            },
+            {
+                "name": "Zoe Saldana",
+                "date_of_birth": "1978-06-19",
+                "biography": "Zoe Saldana nació el 19 de junio de 1978 en Passaic, Nueva Jersey, EE. UU. Es una actriz conocida por Avatar (2009), Guardians of the Galaxy (2014) y Star Trek (2009)."
+            }
+        ],
+        "ratings": 7.8,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 8,
+                "comment": "Visualmente espectacular."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836683"
+                },
+                "username": "marta",
+                "rating": 7,
+                "comment": "Historia sencilla pero visualmente impresionante."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q24871"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6812"
+        },
+        "title": "Titanic",
+        "slug": "titanic",
+        "release_date": "1997-12-19",
+        "duration": 195,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_.jpg",
+        "director": "James Cameron",
+        "genres": [
+            "Drama",
+            "Romance"
+        ],
+        "actors": [
+            {
+                "name": "Leonardo DiCaprio",
+                "date_of_birth": "1974-11-11",
+                "biography": "Leonardo DiCaprio nació el 11 de noviembre de 1974 en Los Ángeles, California. Es un actor conocido por Titanic (1997), Inception (2010) y The Revenant (2015)."
+            },
+            {
+                "name": "Kate Winslet",
+                "date_of_birth": "1975-10-05",
+                "biography": "Kate Winslet nació el 5 de octubre de 1975 en Reading, Inglaterra. Es una actriz conocida por Titanic (1997), Eternal Sunshine of the Spotless Mind (2004) y The Reader (2008)."
+            }
+        ],
+        "ratings": 7.9,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Una historia de amor épica y desgarradora."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836681"
+                },
+                "username": "john",
+                "rating": 8,
+                "comment": "Espectacular en todos los sentidos."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q44578"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6813"
+        },
+        "title": "The Wolf of Wall Street",
+        "slug": "the-wolf-of-wall-street",
+        "release_date": "2013-12-25",
+        "duration": 180,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg",
+        "director": "Martin Scorsese",
+        "genres": [
+            "Biography",
+            "Comedy",
+            "Crime"
+        ],
+        "actors": [
+            {
+                "name": "Leonardo DiCaprio",
+                "date_of_birth": "1974-11-11",
+                "biography": "Leonardo DiCaprio es conocido por su papel como Jordan Belfort en The Wolf of Wall Street (2013), así como por sus trabajos en Titanic (1997) y Inception (2010)."
+            },
+            {
+                "name": "Jonah Hill",
+                "date_of_birth": "1983-12-20",
+                "biography": "Jonah Hill es un actor y comediante nacido el 20 de diciembre de 1983 en Los Ángeles, California. Es conocido por sus papeles en The Wolf of Wall Street (2013), Moneyball (2011) y Superbad (2007)."
+            }
+        ],
+        "ratings": 8.2,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Una locura divertida de principio a fin."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836681"
+                },
+                "username": "john",
+                "rating": 8,
+                "comment": "Brillante interpretación de DiCaprio."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q1392744"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6814"
+        },
+        "title": "Parasite",
+        "slug": "parasite",
+        "release_date": "2019-05-30",
+        "duration": 132,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BYjk1Y2U4MjQtY2ZiNS00OWQyLWI3MmYtZWUwNmRjYWRiNWNhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "director": "Bong Joon Ho",
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Thriller"
+        ],
+        "actors": [
+            {
+                "name": "Kang-ho Song",
+                "date_of_birth": "1967-01-17",
+                "biography": "Kang-ho Song es un actor surcoreano nacido el 17 de enero de 1967. Es conocido por Parasite (2019), The Host (2006) y Snowpiercer (2013)."
+            },
+            {
+                "name": "Sun-kyun Lee",
+                "date_of_birth": "1975-03-02",
+                "biography": "Sun-kyun Lee es un actor nacido el 2 de marzo de 1975 en Seúl, Corea del Sur. Es conocido por Parasite (2019) y A Hard Day (2014)."
+            }
+        ],
+        "ratings": 8.6,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 10,
+                "comment": "Una obra maestra única."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836681"
+                },
+                "username": "john",
+                "rating": 9,
+                "comment": "Impactante y brillante en todos los niveles."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q61448040"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6815"
+        },
+        "title": "Mad Max: Fury Road",
+        "slug": "mad-max-fury-road",
+        "release_date": "2015-05-15",
+        "duration": 120,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BZDRkODJhOTgtOTc1OC00NTgzLTk4NjItNDgxZDY4YjlmNDY2XkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+        "director": "George Miller",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "actors": [
+            {
+                "name": "Tom Hardy",
+                "date_of_birth": "1977-09-15",
+                "biography": "Tom Hardy nació el 15 de septiembre de 1977 en Londres, Inglaterra. Es conocido por Mad Max: Fury Road (2015), Inception (2010) y The Revenant (2015)."
+            },
+            {
+                "name": "Charlize Theron",
+                "date_of_birth": "1975-08-07",
+                "biography": "Charlize Theron nació el 7 de agosto de 1975 en Benoni, Sudáfrica. Es conocida por Mad Max: Fury Road (2015), Monster (2003) y Atomic Blonde (2017)."
+            }
+        ],
+        "ratings": 8.1,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Una experiencia visual explosiva."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836681"
+                },
+                "username": "john",
+                "rating": 8,
+                "comment": "Adrenalina pura y sin descanso."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q1757288"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6816"
+        },
+        "title": "La La Land",
+        "slug": "la-la-land",
+        "release_date": "2016-12-09",
+        "duration": 128,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_FMjpg_UX1000_.jpg",
+        "director": "Damien Chazelle",
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Music"
+        ],
+        "actors": [
+            {
+                "name": "Ryan Gosling",
+                "date_of_birth": "1980-11-12",
+                "biography": "Ryan Gosling nació el 12 de noviembre de 1980 en Londres, Ontario, Canadá. Es conocido por La La Land (2016), Drive (2011) y The Notebook (2004)."
+            },
+            {
+                "name": "Emma Stone",
+                "date_of_birth": "1988-11-06",
+                "biography": "Emma Stone nació el 6 de noviembre de 1988 en Scottsdale, Arizona, EE. UU. Es conocida por La La Land (2016), The Help (2011) y Easy A (2010)."
+            }
+        ],
+        "ratings": 8.0,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 10,
+                "comment": "Una hermosa carta de amor a los sueños y al cine."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836683"
+                },
+                "username": "marta",
+                "rating": 9,
+                "comment": "Un musical moderno, visualmente espectacular."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-02T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q20856802"
+    },
+    {
+        "_id": {
+            "$oid": "670e6fe1a5e24a431c1e6817"
+        },
+        "title": "Whiplash",
+        "slug": "whiplash",
+        "release_date": "2014-10-10",
+        "duration": 106,
+        "thumbnail": "https://m.media-amazon.com/images/M/MV5BMmNkODhkYjctMDMyOC00ZTNjLTkwZTItM2ExMTAxMGU1ZGQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "director": "Damien Chazelle",
+        "genres": [
+            "Drama",
+            "Music"
+        ],
+        "actors": [
+            {
+                "name": "Miles Teller",
+                "date_of_birth": "1987-02-20",
+                "biography": "Miles Teller nació el 20 de febrero de 1987 en Downingtown, Pensilvania, EE. UU. Es conocido por Whiplash (2014), Fantastic Four (2015) y Top Gun: Maverick (2022)."
+            },
+            {
+                "name": "J.K. Simmons",
+                "date_of_birth": "1955-01-09",
+                "biography": "J.K. Simmons nació el 9 de enero de 1955 en Detroit, Michigan, EE. UU. Es conocido por Whiplash (2014), Spider-Man (2002) y Juno (2007)."
+            }
+        ],
+        "ratings": 8.5,
+        "reviews": [
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836680"
+                },
+                "username": "user1",
+                "rating": 9,
+                "comment": "Intensa y fascinante. Una obra maestra."
+            },
+            {
+                "user_id": {
+                    "$oid": "670d392bd5c2c51621836683"
+                },
+                "username": "marta",
+                "rating": 8,
+                "comment": "Una historia brillante sobre la pasión y el sacrificio."
+            }
+        ],
+        "created_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "updated_at": {
+            "$date": "2023-09-01T00:00:00Z"
+        },
+        "uri": "http://www.wikidata.org/entity/Q15648198"
+    }
+]

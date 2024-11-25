@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+        <div class="row content-info">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+              <li class="breadcrumb-item active"><a href="/users"><b>Usuarios</b></a></li>
+            </ol>
+        </div>        
+
+        <div class="row content-info">
+            <div class="centered">
+                <h2><b>Iniciar Sesión</b></h2>
+                <form method="POST" action="/login">
+                        <div class="form-group">
+                        <label>Nombre de usuario:</label>
+                        <input type="text" class="form-control" name="username" placeholder="Escribe tu nombre de usuario" required>
+                        <label>Contraseña:</label>
+                        <input type="password" class="form-control" name="password" placeholder="Escribe tu contraseña" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary filter-button"><b>Iniciar Sesión</b></button>
+                </form>
+            </div>
+        
+      </div>
+
+{% endblock %}

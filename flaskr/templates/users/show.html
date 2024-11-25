@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block sidebar %}
+    <div>
+      <h2><b>Filtros</b></h2>            
+    </div>
+    <hr>
+    <div class="" id="myTabContent">            
+      <div class="" id="filterByName" aria-labelledby="home-tab">
+          <form method="GET" action="/users/username">
+            <fieldset>
+                <div class="form-group">
+                <label>Buscar por nombre</label>
+                <input type="text" class="form-control" name="name" placeholder="Nombre del usuario">
+                </div>
+                <button type="submit" class="btn btn-primary filter-button"><b>Filtrar</b></button>
+            </fieldset>
+          </form>
+      </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+        <div class="row content-info">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+              <li class="breadcrumb-item"><a href="/users"><b>Usuarios</b></a></li>
+              <li class="breadcrumb-item active"><a href="/users/{{ user.username }}"><b>{{ user.username }}</b></a></li>
+            </ol>
+        </div>
+        <div class="row content-info">
+          <div class="">
+            {% if user %}
+              <h2><b>{{ user.username }}</b></h2>
+              <p><b>Nombre:</b> {{ user.name }}</p>
+              <p><b>Apellidos:</b> {{ user.surname }}</p>
+              <p><b>Correo electrónico:</b> {{ user.email }}</p>
+              <p><b>Fecha de registro:</b> {{ user.created_at }}</p>
+              <p><b>País:</b> {{ user.country }}</p>
+              <p><b>Ciudad:</b> {{ user.city }}</p>
+              <p><b>Películas favoritas:</b> 
+                {% if user.favorite_movies %}
+                  {% for movie in user.favorite_movies %}
+                    <a href="/movies/{{ movie.slug }}">{{ movie.title }}</a>
+                  {% endfor %}
+               {% else %}
+                  <p>No hay películas favoritas</p>
+                {% endif %}
+              <!--si es el usuario logueado - botón a edit-->
+              <br/><br/>
+              {% if g.user and g.user['username'] == user.username %}
+                <a class="btn btn-primary" href='/users/{{ user.username }}/edit'><b>Editar</b></a>
+              {% endif %}
+            {% endif %}
+
+          </div>
+          
+        </div>
+        
+{% endblock %}

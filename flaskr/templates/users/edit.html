@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+        <div class="row content-info">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+              <li class="breadcrumb-item"><a href="/users"><b>Usuarios</b></a></li>
+              <li class="breadcrumb-item active"><a href="/users/{{ user.username }}"><b>{{ user.username }}</b></a></li>
+            </ol>
+        </div>
+        <div class="row content-info">
+            <div class="centered">
+                <h2><b>Editar usuario "{{ user.username }}"</b></h2>
+                <form method="POST" action="/users/{{ user.username }}">
+                        <div class="form-group">                        
+                        <label>Nombre*:</label>
+                        <input type="text" class="form-control" name="name" value="{{ user.name if user.name else '' }}" required>
+                        <label>Apellidos*:</label>
+                        <input type="text" class="form-control" name="surname" value="{{ user.surname if user.surname else '' }}" required>
+                        <label>Correo electrónico*:</label>
+                        <input type="text" class="form-control" name="email" value="{{ user.email if user.email else '' }}" required>
+                        <label>Contraseña*:</label>
+                        <input type="password" class="form-control" name="password" value="{{ user.password }}" required>
+                        <label>País:</label>
+                        <input type="text" class="form-control" name="country" value="{{ user.country if user.country else '' }}">
+                        <label>Ciudad:</label>
+                        <input type="text" class="form-control" name="city" value="{{ user.city if user.city else '' }}">
+                        </div>
+                        <button type="submit" class="btn btn-primary filter-button"><b>Actualizar</b></button>
+                        <p>*: campos obligatorios</p>
+                </form>
+            </div>
+        </div>
+
+{% endblock %}

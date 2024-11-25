@@ -1,0 +1,4 @@
+//para importar estos archivos ejecutar estos dos comandos
+
+mongoimport.exe -d moviesbdnr -c user --file .\user.json --jsonArray
+mongoimport.exe -d moviesbdnr -c movie --file .\movie.json --jsonArray
