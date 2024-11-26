@@ -2,10 +2,10 @@
 
 {% block sidebar %}
     <div>
-      <h2><b>Filtros</b></h2>            
+      <h2><b>Filtros</b></h2>
     </div>
     <hr>
-    <div class="" id="myTabContent">            
+    <div class="" id="myTabContent">
       <div class="" id="filterByName" aria-labelledby="home-tab">
           <form method="GET" action="/users/username">
             <fieldset>
@@ -38,7 +38,7 @@
               <p><b>Fecha de registro:</b> {{ user.created_at }}</p>
               <p><b>País:</b> {{ user.country }}</p>
               <p><b>Ciudad:</b> {{ user.city }}</p>
-              <p><b>Películas favoritas:</b> 
+              <p><b>Películas favoritas:</b>
                 {% if user.favorite_movies %}
                   {% for movie in user.favorite_movies %}
                     <a href="/movies/{{ movie.slug }}">{{ movie.title }}</a>
@@ -51,10 +51,12 @@
               {% if g.user and g.user['username'] == user.username %}
                 <a class="btn btn-primary" href='/users/{{ user.username }}/edit'><b>Editar</b></a>
               {% endif %}
+              <!--botón volver a la página anterior-->
+              <button class="btn btn-primary" onclick="history.back()"><b>Volver</b></button>
             {% endif %}
 
           </div>
-          
+
         </div>
-        
+
 {% endblock %}

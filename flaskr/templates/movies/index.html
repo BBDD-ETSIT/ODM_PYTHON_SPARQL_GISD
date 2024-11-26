@@ -2,10 +2,10 @@
 
 {% block sidebar %}
     <div>
-      <h2><b>Filtros</b></h2>            
+      <h2><b>Filtros</b></h2>
     </div>
     <hr>
-    <div class="" id="myTabContent">            
+    <div class="" id="myTabContent">
       <div class="" id="filterByTitle" aria-labelledby="home-tab">
           <form method="GET" action="/movies/movies_filtered">
             <fieldset>
@@ -46,10 +46,10 @@
                     <option value="Horror">Terror</option>
                     <option value="Romance">Romance</option>
                     <option value="Adventure">Aventura</option>
-                    <option value="Fantasy">Fantasía</option>     
+                    <option value="Fantasy">Fantasía</option>
                     <option value="Biography">Biografía</option>
                     <option value="Crime">Crimen</option>
-                    <option value="Mystery">Misterio</option>                
+                    <option value="Mystery">Misterio</option>
                 </select>
                 </div>
                 <button type="submit" class="btn btn-primary filter-button"><b>Filtrar</b></button>
@@ -71,16 +71,19 @@
             {% if movies %}
               {% for movie in movies -%}
                 <div class="card">
-                  <img class="" src="{{ movie.thumbnail }}" alt="Card image cap">
-                  <p><b>Título:</b> {{ movie.title }}</p>
+                  <div class="card-img">
+                    <a class="" href='/movies/{{ movie.slug }}'>
+                    <img class="" src="{{ movie.thumbnail }}" alt="Card image cap"></a>
+                  </div>
+                  <p class="card-title"><b>Título:</b> {{ movie.title }}</p>
                   <p><b>Director:</b> {{ movie.director }}</p>
                   <p><b>Duración: </b> {{ movie.duration }} minutos</p>
                   <p><b>Fecha de estreno:</b> {{ movie.release_date }}</p>
-                  <a class="btn btn-primary" href='/movies/{{ movie.slug }}'><b>Ver Información</b></a>                  
+                  <a class="btn btn-primary bt-info-bottom" href='/movies/{{ movie.slug }}'><b>Ver Información</b></a>
                 </div>
               {% endfor -%}
             {% endif %}
           </div>
         </div>
-             
+
 {% endblock %}

@@ -44,13 +44,12 @@ class Movie(db.Document):
     director = db.StringField()
     actors = db.ListField(db.EmbeddedDocumentField(Actor))
     ratings = db.FloatField()
-	reviews = db.ListField(db.EmbeddedDocumentField(Review))
     created_at = db.DateTimeField()
     updated_at = db.DateTimeField()
 ```
-Observe detenidamente models.py y vea que las reviews están dentro de Movie pero van asociadas también a un usario (relación 1 a N en ambos casos). Es decir en este diseño hacemos embedded document (pre-join) entre Review y Movie y también hacemos un embedded parcial en Review donde tenemos un campo user_id y también hemos puesto el username para evitar hacer join al "pintar" una review.
+Por sencillez se ha relacionado el User con las Reviews. Es decir en este modelo las reviews van asociadas a un usario.
 
-El alumno deberá  completar el código necesario para generar los modelos de User 
+El alumno deberá  completar el código necesario para generar los modelos de User y Review, incluyendo el atributo referenciado dentro de el modelos de Review.
 
 El **controlador** ejecuta acciones sobre los modelos. El alumno deberá desarrollar varias funciones del controlador para que las acciones que se realicen a través de la página web funcionen correctamente. Para ello, desarrollara las operaciones correspondientes con MongoEngine implementando las operaciones CRUD sobre los objetos User y Reviews, así como otra serie de queries.
 
@@ -63,12 +62,12 @@ Abra un terminal en su ordenador y siga los siguientes pasos.
 
 Clone el repositoro de GitHub
 ```
-git clone https://github.com/BBDD-ETSIT/ODM_PYTHON_SPARQL_GISD.git
+git clone https://github.com/BBDD-ETSIT/ODM_PYTHON_SPARQL.git
 ```
 
-Navegue a través de un terminal a la carpeta ODM_PYTHON_SPARQL_GISD.
+Navegue a través de un terminal a la carpeta ODM_PYTHON_SPARQL.
 ```
-cd ODM_PYTHON_SPARQL_GISD
+cd ODM_PYTHON_SPARQL
 ```
 
 Una vez dentro de la carpeta, se instalan las dependencias. Para ello debe crear un virtual environment de la siguiente manera:
@@ -95,7 +94,7 @@ Una vez creado el virtual environment lo activamos para poder instalar las depen
 Instalamos las dependencias con pip:
 
 ```
-pip3 install -r flaskr/requirements.txt 
+pip3 install -r flaskr/requirements.txt
 ```
 
 Debemos tener arrancado MongoDB. Dependiendo de cómo lo hayamos instalado arrancará solo al iniciar la máquina o tendremos que ir a ejecutar el programa "mongod" a la carpeta bin donde hayamos realizado la instalación.
@@ -131,7 +130,7 @@ La primera tarea es inspeccionar todo el código provisto y entender donde está
 
 ### 5.1 Definir el modelo de User y completar el de Movie:
 
-El modelo es el que interactúa con la BBDD, por lo tanto se deben definir los modelos faltantes para poder acceder  a los documentos de User  de la base de datos . Para ello debe completar en el fichero `models.py` las  líneas de código que hagan falta. Un ejemplo del esquema de los documentos de user y movies que están almacenados en la base de datos son los siguientes:
+El modelo es el que interactúa con la BBDD, por lo tanto se deben definir los modelos faltantes para poder acceder tanto  a los documentos de User  de la base de datos como a los reviews. Para ello debe completar en el fichero `models.py` las  líneas de código que hagan falta. Un ejemplo del esquema de los documentos de user y movies que están almacenados en la base de datos son los siguientes:
 
 **User**:
 
@@ -195,11 +194,11 @@ El modelo es el que interactúa con la BBDD, por lo tanto se deben definir los m
 }
 
 ```
-
+Nótese que en el modelo de Movie el único campo que no está definido es el de review. Por lo tanto debe crear el subdocumento correspondiente a review y luego añadirlo a el modelo Movie.
 
 ### 5.2 Rellenar las funciones de los controladores para user y movie que interactúan con la base de datos usando los modelos.
 
-Se provee un esqueleto con todas los funciones que deberá rellenar. El alumno deberá editar los ficheros `controllers/userController.py` y `controllers/movieController.py`. 
+Se provee un esqueleto con todas los funciones que deberá rellenar. El alumno deberá editar los ficheros `controllers/userController.py` y `controllers/movieController.py`.
 
 En cada una de estas funciones se debe hacer uso del ODM MongoEngine o de SPARQL para realizar operaciones con la base de datos y devolver un resultado de la operación.
 
@@ -321,7 +320,7 @@ Por último, para descargar la información necesaria para generar `movies.ttl` 
 * Descargar toda la información de cada película usando wikidata. Esta es la opción más sencilla, pero incluye información que puede no interesarnos.
 * Utilizar `rdflib` para construir un grafo y añadir las triplas necesarias usando consultas SPARQL a wikipedia para cada una de las películas. Esta es la opción más flexible, pero requiere utilizar rdflib y un pequeño código python.
 * Utilizar una única consulta SPARQL `CONSTRUCT`, que devuelve el resultado como un grafo (p.e., `ttl`). Esta es la opción más rápida, pero requiere tener un buen dominio de SPARQL para generar una única consulta SPARQL.
-* Utilizar una consulta `CONSTRUCT` para cada película y unir los resultados 
+* Utilizar una consulta `CONSTRUCT` para cada película y unir los resultados
 
 
 ### create_review()
@@ -332,11 +331,11 @@ Por último, para descargar la información necesaria para generar `movies.ttl` 
 
 **Returns:** Un objeto movie con la review creada.
 
-### 5.3 Añadir un marcador a la vista de Movies que indique si una película es favorita. 
+### 5.3 Añadir un marcador a la vista de Movies que indique si una película es favorita.
 
 Se debe añadir en la vista de movies `static/templates/movies/show.html` un marcador en forma de imagen que indique que si esa película está marcada como favorita.
 
-### 5.4 Manejo de Concurrencia. 
+### 5.4 Manejo de Concurrencia.
 
 En este apartado se plantean las tareas que van a permitir manejar la concurrencia para esta aplicación.
 
@@ -373,7 +372,7 @@ flaskr/tests/test_check.py::test_update_user PASSED                             
 flaskr/tests/test_check.py::test_add_favorite_movie_to_user PASSED               [ 70%]
 flaskr/tests/test_check.py::test_remove_favorite_movie_from_user PASSED          [ 80%]
 flaskr/tests/test_check.py::test_create_review PASSED                            [ 90%]
-flaskr/tests/test_check.py::test_show_score 
+flaskr/tests/test_check.py::test_show_score
 
 La nota orientativa obtenida en la práctica es:
 
