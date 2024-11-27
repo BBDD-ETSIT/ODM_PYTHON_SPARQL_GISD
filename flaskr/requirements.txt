@@ -4,3 +4,4 @@ Werkzeug==2.3.8
 flask-mongoengine==1.0.0
 requests==2.32.3
 rdflib==7.1.0
+python-dateutil
