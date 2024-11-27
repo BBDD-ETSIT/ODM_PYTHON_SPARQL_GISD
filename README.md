@@ -62,12 +62,12 @@ Abra un terminal en su ordenador y siga los siguientes pasos.
 
 Clone el repositoro de GitHub
 ```
-git clone https://github.com/BBDD-ETSIT/ODM_PYTHON_SPARQL.git
+git clone https://github.com/BBDD-ETSIT/ODM_PYTHON_SPARQL_GISD.git
 ```
 
-Navegue a través de un terminal a la carpeta ODM_PYTHON_SPARQL.
+Navegue a través de un terminal a la carpeta ODM_PYTHON_SPARQL_GISD.
 ```
-cd ODM_PYTHON_SPARQL
+cd ODM_PYTHON_SPARQL_GISD
 ```
 
 Una vez dentro de la carpeta, se instalan las dependencias. Para ello debe crear un virtual environment de la siguiente manera:
