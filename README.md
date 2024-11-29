@@ -54,7 +54,7 @@ El alumno deberá  completar el código necesario para generar los modelos de Us
 
 El **controlador** ejecuta acciones sobre los modelos. El alumno deberá desarrollar varias funciones del controlador para que las acciones que se realicen a través de la página web funcionen correctamente. Para ello, desarrollara las operaciones correspondientes con MongoEngine implementando las operaciones CRUD sobre los objetos User y Reviews, así como otra serie de queries.
 
-En el siguiente video puede observar cuál sería el funcionamiento normal de la aplicación [link](#)
+En el siguiente video puede observar cuál sería el funcionamiento normal de la aplicación: https://www.youtube.com/watch?v=SR6PT2VM9kw
 
 
 ## 4. Descargar e instalar el código del proyecto
